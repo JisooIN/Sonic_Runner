@@ -2,7 +2,7 @@ const sonic = document.querySelector(".sonic");
 const Motobug = document.querySelector(".Motobug");
 const Mapa = document.querySelector(".Mapa");
 const jumpSound = new Audio('./audio/JUMP-SONG.unknown');
-
+const greenhill = new Audio('./audio/greenHill.mp3');
 
 const jump = () => {
     jumpSound.currentTime = 0; 
@@ -18,6 +18,7 @@ const jump = () => {
 }
 
 const loop = setInterval(() => {
+ greenhill.play();
  const MotobugPosition = Motobug.offsetLeft;
  const sonicPosition =+window.getComputedStyle(sonic).bottom.replace("px", "");
 
