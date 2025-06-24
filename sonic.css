@@ -1,0 +1,68 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.gameplay {
+width: 1920px;
+height: 920px;
+margin: 2 auto; 
+border: 2px solid #ccc;
+position: relative;
+overflow: hi;
+}
+
+.sonic {
+bottom: 230px;
+position: absolute;
+width: 150px;
+}
+
+.jump {
+animation: 2s Sonic_animation infinite ease-out;
+}
+
+
+.Motobug {
+width: 135px;
+position: absolute;
+bottom: 240px;
+right: 0;
+animation: 2.5s Motobug_animation infinite linear;
+}
+
+.Mapa{
+  width: 100%;
+  height: 100%;
+}
+
+.vidasonic{
+ bottom: 100px;
+ width: 135px;
+ position: relative; 
+}
+
+@keyframes Motobug_animation {
+  0% {
+    right: -240px;
+  } 100% {
+    right: 100%
+  }
+
+}
+
+@keyframes Sonic_animation {
+0% {
+  bottom: 230px;
+}
+25% {
+  bottom: 400px;
+}
+75% {
+  bottom: 230px;
+}
+100% {
+  bottom: 230px;
+}
+}
