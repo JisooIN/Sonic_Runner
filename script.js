@@ -3,6 +3,7 @@ const Motobug = document.querySelector(".Motobug");
 const Mapa = document.querySelector(".Mapa");
 const jumpSound = new Audio('./audio/JUMP-SONG.unknown');
 
+
 const jump = () => {
     jumpSound.currentTime = 0; 
     jumpSound.play();
@@ -21,6 +22,7 @@ const loop = setInterval(() => {
  const sonicPosition =+window.getComputedStyle(sonic).bottom.replace("px", "");
 
  if (MotobugPosition < 115 && MotobugPosition > 0 && sonicPosition < 325) {
+ 
  Motobug.style.animation = "none";
  Motobug.style.left = `${MotobugPosition}px`;
 
