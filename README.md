@@ -8,7 +8,6 @@ O projeto **Sonic Runner** foi desenvolvido devido à minha paixão por games. V
 
 * 🎮 Controle do personagem (Sonic) para se mover horizontalmente na tela.
 * ⚡️ Obstáculos aparecem periodicamente para aumentar a dificuldade.
-* 🏁 Sistema de pontuação para acompanhar o desempenho do jogador.
 * 💥 Detecção de colisão que encerra o jogo caso o Sonic bata em um obstáculo.
 
 ## Tecnologias Utilizadas
